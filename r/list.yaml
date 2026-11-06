@@ -1,0 +1,18 @@
+# Российские сервисы — всегда напрямую, без VPN. Добавить сайт: строка DOMAIN-SUFFIX,сайт → python3 /root/vpn-sub/make.py
+payload:
+  - DOMAIN-SUFFIX,ru
+  - DOMAIN-SUFFIX,su
+  - DOMAIN-SUFFIX,xn--p1ai
+  - DOMAIN-SUFFIX,xn--80adxhks
+  - DOMAIN-SUFFIX,moscow
+  - DOMAIN-SUFFIX,yandex.net
+  - DOMAIN-SUFFIX,yandex.com
+  - DOMAIN-SUFFIX,yastatic.net
+  - DOMAIN-SUFFIX,yandexcloud.net
+  - DOMAIN-SUFFIX,vk.com
+  - DOMAIN-SUFFIX,vk.me
+  - DOMAIN-SUFFIX,userapi.com
+  - DOMAIN-SUFFIX,vkuser.net
+  - DOMAIN-SUFFIX,mycdn.me
+  - DOMAIN-SUFFIX,avito.st
+  - DOMAIN-SUFFIX,2gis.com
