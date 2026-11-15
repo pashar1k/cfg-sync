@@ -16,3 +16,43 @@ payload:
   - DOMAIN-SUFFIX,mycdn.me
   - DOMAIN-SUFFIX,avito.st
   - DOMAIN-SUFFIX,2gis.com
+  # --- 15.11.2026: российские сервисы на зарубежных адресах/зонах (по замеру уходили в VPN) ---
+  - DOMAIN-SUFFIX,yandex
+  - DOMAIN-SUFFIX,yandexgo.com
+  - DOMAIN-SUFFIX,yandexcom.net
+  - DOMAIN-SUFFIX,yandexwebcache.org
+  - DOMAIN-SUFFIX,ozon.app
+  - DOMAIN-SUFFIX,megamarket.tech
+  - DOMAIN-SUFFIX,aviasales.com
+  - DOMAIN-SUFFIX,avs.io
+  - DOMAIN-SUFFIX,gismeteo.com
+  - DOMAIN-SUFFIX,meteofor.com
+  - DOMAIN-SUFFIX,more.tv
+  - DOMAIN-SUFFIX,kinorium.com
+  - DOMAIN-SUFFIX,kinescopecdn.net
+  - DOMAIN,kp-config-smart-tv.akamaized.net
+  - DOMAIN,kp-configs-smart-tv.s3.eu-central-1.amazonaws.com
+  - DOMAIN-SUFFIX,dodois.com
+  - DOMAIN-SUFFIX,x5.com
+  - DOMAIN-SUFFIX,whoosh.bike
+  - DOMAIN-SUFFIX,medsi.pro
+  - DOMAIN-SUFFIX,my.games
+  - DOMAIN-SUFFIX,kaspersky.com
+  - DOMAIN-SUFFIX,kaspersky-labs.com
+  - DOMAIN-SUFFIX,bank131.com
+  - DOMAIN-SUFFIX,tochka-tech.com
+  # виджеты и конструкторы, на которых собраны российские сайты (чаты, формы, страницы)
+  - DOMAIN-SUFFIX,tilda.cc
+  - DOMAIN-SUFFIX,tilda.ws
+  - DOMAIN-SUFFIX,jivo.chat
+  - DOMAIN-SUFFIX,jivochat.com
+  - DOMAIN-SUFFIX,jivosite.com
+  - DOMAIN-SUFFIX,bitrix24.com
+  - DOMAIN-SUFFIX,bitrix24.net
+  - DOMAIN-SUFFIX,bitrix24public.com
+  - DOMAIN-SUFFIX,bitrixsoft.com
+  - DOMAIN-SUFFIX,mindbox.cloud
+  - DOMAIN-SUFFIX,carrotquest.app
+  - DOMAIN-SUFFIX,carrotquest.io
+  - DOMAIN-SUFFIX,dashly.app
+  - DOMAIN-SUFFIX,dashly.io
