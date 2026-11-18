@@ -1,0 +1,69 @@
+# Российские приложения на Android: весь их трафик идёт напрямую, мимо VPN (18.11.2026).
+# Зачем: приложение не откроет через VPN заблокированное и не узнает адрес нашего сервера.
+# Имена пакетов проверены по Google Play / RuStore. Добавить: строка PROCESS-NAME,<пакет> → python3 /root/vpn-lists/publish_ru.py
+payload:
+  - PROCESS-NAME,ru.oneme.app  # MAX
+  - PROCESS-NAME,com.vkontakte.android  # ВКонтакте
+  - PROCESS-NAME,com.vk.vkvideo  # VK Видео
+  - PROCESS-NAME,com.uma.musicvk  # VK Музыка
+  - PROCESS-NAME,com.vk.im  # VK Мессенджер
+  - PROCESS-NAME,ru.mail.mailapp  # Почта Mail
+  - PROCESS-NAME,ru.yandex.searchplugin  # Яндекс с Алисой
+  - PROCESS-NAME,com.yandex.searchapp  # Яндекс
+  - PROCESS-NAME,ru.yandex.yandexmaps  # Яндекс Карты
+  - PROCESS-NAME,ru.yandex.yandexnavi  # Яндекс Навигатор
+  - PROCESS-NAME,ru.yandex.taxi  # Яндекс Go
+  - PROCESS-NAME,ru.yandex.music  # Яндекс Музыка
+  - PROCESS-NAME,ru.beru.android  # Яндекс Маркет
+  - PROCESS-NAME,ru.foodfox.client  # Яндекс Еда
+  - PROCESS-NAME,com.yandex.lavka  # Яндекс Лавка
+  - PROCESS-NAME,ru.yandex.disk  # Яндекс Диск
+  - PROCESS-NAME,ru.yandex.mail  # Яндекс Почта
+  - PROCESS-NAME,ru.kinopoisk  # Кинопоиск
+  - PROCESS-NAME,ru.yandex.weatherplugin  # Яндекс Погода
+  - PROCESS-NAME,ru.yandex.metro  # Яндекс Метро
+  - PROCESS-NAME,ru.yandex.mobile.gasstations  # Яндекс Заправки
+  - PROCESS-NAME,com.yandex.mobile.drive  # Яндекс Драйв
+  - PROCESS-NAME,ru.yandex.translate  # Яндекс Переводчик
+  - PROCESS-NAME,com.yandex.bank  # Яндекс Пэй
+  - PROCESS-NAME,ru.yandex.rasp  # Яндекс Электрички
+  - PROCESS-NAME,ru.yandex.taximeter  # Яндекс Про
+  - PROCESS-NAME,ru.yandex.telemost  # Яндекс Телемост
+  - PROCESS-NAME,ru.yandex.key  # Яндекс Ключ
+  - PROCESS-NAME,ru.raiffeisennews  # Райффайзен
+  - PROCESS-NAME,ru.rshb.dbo  # Россельхозбанк
+  - PROCESS-NAME,ru.rostel  # Госуслуги
+  - PROCESS-NAME,ru.gosuslugi.goskey  # Госключ
+  - PROCESS-NAME,com.gnivts.selfemployed  # Мой налог
+  - PROCESS-NAME,ru.fns.lkfl  # Налоги ФЛ
+  - PROCESS-NAME,ru.gosuslugi.auto  # Госуслуги Авто
+  - PROCESS-NAME,ru.ozon.app.android  # Ozon
+  - PROCESS-NAME,com.wildberries.ru  # Wildberries
+  - PROCESS-NAME,com.lamoda.lite  # Lamoda
+  - PROCESS-NAME,ru.filit.mvideo.b2c  # М.Видео
+  - PROCESS-NAME,ru.citilink  # Ситилинк
+  - PROCESS-NAME,ru.sbcs.store  # Самокат
+  - PROCESS-NAME,ru.vkusvill  # ВкусВилл
+  - PROCESS-NAME,ru.pyaterochka.app.browser  # Пятёрочка
+  - PROCESS-NAME,ru.tander.magnit  # Магнит
+  - PROCESS-NAME,ru.perekrestok.app  # Перекрёсток
+  - PROCESS-NAME,ru.mts.mymts  # Мой МТС
+  - PROCESS-NAME,ru.beeline.services  # билайн
+  - PROCESS-NAME,ru.tele2.mytele2  # t2
+  - PROCESS-NAME,ru.more.play  # Okko
+  - PROCESS-NAME,ru.rt.video.app.mobile  # Wink
+  - PROCESS-NAME,ru.ivi.client  # Иви
+  - PROCESS-NAME,ru.mts.mtstv  # KION
+  - PROCESS-NAME,ru.start.androidmobile  # START
+  - PROCESS-NAME,ru.dublgis.dgismobile  # 2ГИС
+  - PROCESS-NAME,ru.rzd.pass  # РЖД Пассажирам
+  - PROCESS-NAME,ru.tutu.tutu_emp  # Туту
+  - PROCESS-NAME,ru.hh.android  # hh
+  - PROCESS-NAME,ru.cian.main  # Циан
+  - PROCESS-NAME,com.octopod.russianpost.client.android  # Почта России
+  - PROCESS-NAME,com.logistic.sdek  # СДЭК
+  - PROCESS-NAME,ru.auto.ara  # Авто.ру
+  - PROCESS-NAME,ru.farpost.dromfilter  # Дром
+  - PROCESS-NAME,ru.litres.android  # Литрес
+  - PROCESS-NAME,ru.mosgorpass  # Московский транспорт
+  - PROCESS-NAME,ru.dns.shop.android  # DNS
