@@ -67,5 +67,10 @@ payload:
   - PROCESS-NAME,ru.litres.android  # Литрес
   - PROCESS-NAME,ru.mosgorpass  # Московский транспорт
   - PROCESS-NAME,ru.dns.shop.android  # DNS
-  # ВРЕМЕННАЯ ПРОВЕРКА 18.11 (убрать после теста PO): только Chrome и только сайт 2ip.io — напрямую
-  - AND,((PROCESS-NAME,com.android.chrome),(DOMAIN-SUFFIX,2ip.io))
+  # ВРЕМЕННАЯ ПРОВЕРКА 18.11 (убрать после теста PO): порты-метки на нашем сервере, см. /etc/nginx/sites-available/sub
+  - AND,((IP-CIDR,2.58.33.155/32),(DST-PORT,2084))
+  - AND,((PROCESS-NAME-REGEX,.+),(DST-PORT,2085))
+  - AND,((PROCESS-NAME,com.android.chrome),(DST-PORT,2086))
+  - AND,((PROCESS-NAME-REGEX,(?i)yandex),(DST-PORT,2087))
+  - AND,((PROCESS-NAME-REGEX,(?i)(globalbrowser|android\.browser|miui|heytap|huawei|vivo)),(DST-PORT,2088))
+  - AND,((PROCESS-NAME-REGEX,(?i)(sbrowser|brave|firefox|opera|emmx|vivaldi|duckduckgo|kiwi|chromium)),(DST-PORT,2089))
