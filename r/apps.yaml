@@ -67,3 +67,5 @@ payload:
   - PROCESS-NAME,ru.litres.android  # Литрес
   - PROCESS-NAME,ru.mosgorpass  # Московский транспорт
   - PROCESS-NAME,ru.dns.shop.android  # DNS
+  # ВРЕМЕННАЯ ПРОВЕРКА 18.11 (убрать после теста PO): только Chrome и только сайт 2ip.io — напрямую
+  - AND,((PROCESS-NAME,com.android.chrome),(DOMAIN-SUFFIX,2ip.io))
